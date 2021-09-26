@@ -1,3 +1,6 @@
+/* Decided at the end that I wanted a uniform font throughout.
+Originally thought different fonts for the header/footer and the main text would looke nice but it did not. */
+
 header {
 	text-align: center;
 	font-family: sans-serif;
@@ -11,6 +14,9 @@ h2 {
 	font-size: 39px;
 }
 
+/* Properly styling the header and footer to match each other.
+Would have grouped them together, but I decided on the stylings separately. */
+
 footer {
 	text-align: center;
 	font-size: 21px;
@@ -21,6 +27,8 @@ footer {
 	color: white;
 	font-weight: 700;
 }
+
+/* Making all the main text centered on the page itself by setting the max-width. */
 
 main {
 	font-family: sans-serif;
@@ -33,6 +41,8 @@ main {
 main > p {
 	text-align: justify;
 }
+
+/* Giving the line break some more definition. */
 
 hr {
 	padding: 3px;
@@ -49,6 +59,8 @@ h1 {
 	font-size: 48px;
 }
 
+/* Centering and sizing the image. */
+
 .image-container {
 	width: 100%;
 	display: flex;
@@ -56,9 +68,13 @@ h1 {
 	justify-content: center;
 }
 
+/* Rounding the corners of the image on the page. */
+
 img {
 	border-radius: 15%;
 }
+
+/* Pseudo-classes to change the state of the links when the user interacts with it.  */
 
 a:link {
 	color: red;
